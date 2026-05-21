@@ -1,0 +1,30 @@
+{
+  "common": [
+    {"name":"Bandit","hp":80,"damage":10,"defense":3,"gold":20,"exp":10,"type_en":"COMMON","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Thief","hp":70,"damage":12,"defense":2,"gold":18,"exp":10,"type_en":"COMMON","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Mercenary","hp":90,"damage":11,"defense":4,"gold":22,"exp":12,"type_en":"COMMON","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Monk","hp":85,"damage":10,"defense":5,"gold":20,"exp":11,"type_en":"COMMON","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Skeleton","hp":75,"damage":13,"defense":2,"gold":19,"exp":10,"type_en":"COMMON","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Zombie","hp":95,"damage":9,"defense":3,"gold":21,"exp":12,"type_en":"COMMON","photo_atk":"../assets/mage_person_atk.png"}
+  ],
+
+  "rare": [
+    {"name":"Dark Ninja","hp":110,"damage":14,"defense":6,"gold":35,"exp":18,"type_en":"RARE","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Ice Warrior","hp":120,"damage":13,"defense":7,"gold":36,"exp":20,"type_en":"RARE","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Fire Cultist","hp":100,"damage":16,"defense":5,"gold":34,"exp":19,"type_en":"RARE","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Assassin","hp":95,"damage":18,"defense":4,"gold":33,"exp":21,"type_en":"RARE","photo_atk":"../assets/mage_person_atk.png"}
+  ],
+
+  "elite": [
+    {"name":"Arena Champion","hp":140,"damage":17,"defense":10,"gold":50,"exp":30,"type_en":"ELITE","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Shadow Samurai","hp":150,"damage":18,"defense":11,"gold":55,"exp":32,"type_en":"ELITE","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"War Golem","hp":180,"damage":15,"defense":14,"gold":60,"exp":35,"type_en":"ELITE","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Blood Knight","hp":160,"damage":19,"defense":12,"gold":58,"exp":34,"type_en":"ELITE","photo_atk":"../assets/mage_person_atk.png"}
+  ],
+
+  "boss": [
+    {"name":"Dragon Slayer","hp":220,"damage":22,"defense":16,"gold":100,"exp":60,"type_en":"BOSS","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Demon Lord","hp":250,"damage":24,"defense":18,"gold":120,"exp":70,"type_en":"BOSS","photo_atk":"../assets/mage_person_atk.png"},
+    {"name":"Arena King","hp":230,"damage":23,"defense":17,"gold":110,"exp":65,"type_en":"BOSS","photo_atk":"../assets/mage_person_atk.png"}
+  ]
+}
