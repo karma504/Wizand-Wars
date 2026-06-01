@@ -1,7 +1,5 @@
 import flet as ft
 
-from ..views.style_button import main_btn
-
 
 def page_main(page: ft.Page):
     """Головний екран"""
@@ -26,7 +24,14 @@ def page_main(page: ft.Page):
                         ft.Button(
                             "Почати гру",
                             on_click=open_register,
-                            style=main_btn
+                            style=ft.ButtonStyle(
+        color="white",
+        bgcolor="#C89B3C",
+        padding=ft.padding.symmetric(horizontal=50, vertical=22),
+        text_style=ft.TextStyle(size=20, weight=ft.FontWeight.BOLD),
+        shape=ft.RoundedRectangleBorder(radius=16),
+        side=ft.BorderSide(2, "#7A5A1E"),
+    )
                         ),
                     ],
                 ),
