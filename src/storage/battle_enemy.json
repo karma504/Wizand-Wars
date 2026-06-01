@@ -1,0 +1,55 @@
+{
+    "enemy": "Bandit",
+    "hp": 80,
+    "hp_max": 80,
+    "damage": 10,
+    "defense": 3,
+    "gold": 20,
+    "exp": 10,
+    "type": "COMMON",
+    "photo_atk": "../assets/mage_person_atk.png",
+    "attacks": [
+        {
+            "name": "Быстрый удар ножом в бок",
+            "damage_mult": 0.8
+        },
+        {
+            "name": "Подлый выпад",
+            "damage_mult": 1.0
+        },
+        {
+            "name": "Удар рукоятью",
+            "damage_mult": 1.2
+        },
+        {
+            "name": "Серия порезов",
+            "damage_mult": 1.5
+        },
+        {
+            "name": "Отчаянный выпад",
+            "damage_mult": 2.0
+        }
+    ],
+    "defenses": [
+        {
+            "name": "Закрывается плащом",
+            "defense_mult": 1.2
+        },
+        {
+            "name": "Уходит в сторону",
+            "defense_mult": 1.4
+        },
+        {
+            "name": "Парирует удар",
+            "defense_mult": 1.6
+        },
+        {
+            "name": "Прячется за укрытием",
+            "defense_mult": 1.8
+        },
+        {
+            "name": "Грязный защитный прием",
+            "defense_mult": 2.0
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+
+    "wood_sword": {
+        "name": "🪵 Деревянный меч",
+        "price": 150,
+        "attack": 5,
+        "defense": 0,
+        "hp": 0
+    },
+
+    "iron_sword": {
+        "name": "⚔ Железный меч",
+        "price": 300,
+        "attack": 12,
+        "defense": 0,
+        "hp": 0
+    },
+
+    "magic_staff": {
+        "name": "🪄 Магический посох",
+        "price": 500,
+        "attack": 20,
+        "defense": 5,
+        "hp": 0
+    },
+
+    "small_shield": {
+        "name": "🛡 Маленький щит",
+        "price": 200,
+        "attack": 0,
+        "defense": 10,
+        "hp": 0
+    },
+
+    "dragon_shield": {
+        "name": "🐉 Драконий щит",
+        "price": 700,
+        "attack": 0,
+        "defense": 25,
+        "hp": 20
+    },
+
+    "health_potion": {
+        "name": "🧪 Зелье здоровья",
+        "price": 180,
+        "attack": 0,
+        "defense": 0,
+        "hp": 30
+    },
+
+    "berserk_ring": {
+        "name": "💍 Кольцо берсерка",
+        "price": 450,
+        "attack": 15,
+        "defense": -5,
+        "hp": 0
+    },
+
+    "heavy_armor": {
+        "name": "🥋 Тяжелая броня",
+        "price": 650,
+        "attack": -3,
+        "defense": 30,
+        "hp": 50
+    },
+
+    "speed_boots": {
+        "name": "👢 Ботинки скорости",
+        "price": 250,
+        "attack": 3,
+        "defense": 2,
+        "hp": 10
+    }
+
+}

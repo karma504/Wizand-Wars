@@ -1,21 +1,36 @@
-from .load_json import read_json, write_json
+from src.models.load_json import read_json, write_json
 
 
 def register_user(user, email, password):
-    users = read_json("../storage/user.json") or {}
+    users = read_json("storage/users.json") or []
 
-    # перевірка на дублікати
     for u in users:
         if u.get("email") == email:
             return {"ok": False, "error": "Користувач вже існує"}
 
-    users.append({
+    new_user = {
         "user": user,
         "email": email,
-        "password": password
-    })
+        "password": password,
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks":[],
+            "defenses":[]
+        },
+        "enemy": None
+    }
 
-    write_json("user.json",users )
+    users.append(new_user)
+
+    write_json("storage/users.json", users)
 
     return {"ok": True}
 
@@ -27,7 +42,7 @@ def login_user(email, password):
     if not password:
         return {"ok": False, "error": "Введіть пароль"}
 
-    users = read_json("user.json") or []
+    users = read_json("storage/users.json") or []
 
     for u in users:
         if u.get("email") == email and u.get("password") == password:
