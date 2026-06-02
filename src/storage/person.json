@@ -30,11 +30,7 @@
     {"name": "Критичний випад", "damage_mult": 1.45},
     {"name": "Удар у голову", "damage_mult": 1.5},
     {"name": "Залізний удар", "damage_mult": 1.55},
-    {"name": "Руйнівний удар", "damage_mult": 1.6},
-    {"name": "Берсеркський удар", "damage_mult": 1.7},
-    {"name": "Смертельний удар", "damage_mult": 1.8},
-    {"name": "Розсічення", "damage_mult": 1.9},
-    {"name": "Удар долі", "damage_mult": 2.0}
+
   ],
 
   "defenses": [
@@ -48,16 +44,6 @@
     {"name": "Ухилення вбік", "defense_mult": 1.5},
     {"name": "Захисна стійка", "defense_mult": 1.55},
     {"name": "Щитова стіна", "defense_mult": 1.6},
-    {"name": "Контратака", "defense_mult": 1.65},
-    {"name": "Круговий блок", "defense_mult": 1.7},
-    {"name": "Непробивний захист", "defense_mult": 1.75},
-    {"name": "Тактичний відступ", "defense_mult": 1.8},
-    {"name": "Залізна стійка", "defense_mult": 1.85},
-    {"name": "Абсолютний блок", "defense_mult": 1.9},
-    {"name": "Щит титана", "defense_mult": 2.0},
-    {"name": "Відбиття удару", "defense_mult": 2.1},
-    {"name": "Бойова фортеця", "defense_mult": 2.2},
-    {"name": "Кам'яна стійка", "defense_mult": 2.3}
   ]
 },
   {
