@@ -1,149 +1,864 @@
-{
-  "common": [
+{"common": [
+  {
+    "Bandit": {
+      "hp": 80,
+      "damage": 10,
+      "defense": 3,
+      "gold": 20,
+      "exp": 10,
+      "type_en": "COMMON",
+      "photo_atk": "bandit.png",
+      "attacks": [
+        {
+          "name": "Швидкий удар ножем у бік",
+          "damage_mult": 0.8
+        },
+        {
+          "name": "Підлий випад",
+          "damage_mult": 1.0
+        },
+        {
+          "name": "Удар руків'ям",
+          "damage_mult": 1.2
+        },
+        {
+          "name": "Серія порізів",
+          "damage_mult": 1.5
+        },
+        {
+          "name": "Відчайдушний випад",
+          "damage_mult": 2.0
+        }
+      ],
+      "defenses": [
+        {
+          "name": "Закривається плащем",
+          "defense_mult": 1.2
+        },
+        {
+          "name": "Відходить убік",
+          "defense_mult": 1.4
+        },
+        {
+          "name": "Парирує удар",
+          "defense_mult": 1.6
+        },
+        {
+          "name": "Ховається за укриттям",
+          "defense_mult": 1.8
+        },
+        {
+          "name": "Брудний захисний прийом",
+          "defense_mult": 2.0
+        }
+      ]
+    },
+
+    "Thief": {
+      "hp": 70,
+      "damage": 12,
+      "defense": 2,
+      "gold": 18,
+      "exp": 10,
+      "type_en": "COMMON",
+      "photo_atk": "thief.png",
+      "attacks": [
+        {
+          "name": "Укол кинджалом",
+          "damage_mult": 0.9
+        },
+        {
+          "name": "Удар з тіні",
+          "damage_mult": 1.1
+        },
+        {
+          "name": "Різкий поріз",
+          "damage_mult": 1.3
+        },
+        {
+          "name": "Прихована серія",
+          "damage_mult": 1.6
+        },
+        {
+          "name": "Смертельний укол",
+          "damage_mult": 2.1
+        }
+      ],
+      "defenses": [
+        {
+          "name": "Спритне ухилення",
+          "defense_mult": 1.2
+        },
+        {
+          "name": "Тіньова стійка",
+          "defense_mult": 1.4
+        },
+        {
+          "name": "Швидкий відступ",
+          "defense_mult": 1.6
+        },
+        {
+          "name": "Зникнення в тіні",
+          "defense_mult": 1.8
+        },
+        {
+          "name": "Примарний силует",
+          "defense_mult": 2.0
+        }
+      ]
+    },
+
+    "Mercenary": {
+      "hp": 90,
+      "damage": 11,
+      "defense": 4,
+      "gold": 22,
+      "exp": 12,
+      "type_en": "COMMON",
+      "photo_atk": "mercenary.png",
+      "attacks": [
+        {
+          "name": "Удар мечем",
+          "damage_mult": 1.0
+        },
+        {
+          "name": "Рубаючий удар",
+          "damage_mult": 1.2
+        },
+        {
+          "name": "Воїнський випад",
+          "damage_mult": 1.4
+        },
+        {
+          "name": "Важка серія",
+          "damage_mult": 1.7
+        },
+        {
+          "name": "Добивальний удар найманця",
+          "damage_mult": 2.2
+        }
+      ],
+      "defenses": [
+        {
+          "name": "Піднімає щит",
+          "defense_mult": 1.3
+        },
+        {
+          "name": "Військовий блок",
+          "defense_mult": 1.5
+        },
+        {
+          "name": "Стійка ветерана",
+          "defense_mult": 1.7
+        },
+        {
+          "name": "Залізна оборона",
+          "defense_mult": 1.9
+        },
+        {
+          "name": "Незламний блок",
+          "defense_mult": 2.1
+        }
+      ]
+    },
+  "Monk": {
+  "hp": 85,
+  "damage": 10,
+  "defense": 5,
+  "gold": 20,
+  "exp": 11,
+  "type_en": "COMMON",
+  "photo_atk": "monk.png",
+  "attacks": [
     {
-      "Бандит": {
-        "hp": 80,
-        "damage": 10,
-        "defense": 3,
-        "gold": 20,
-        "exp": 10,
-        "type_en": "ЗВИЧАЙНИЙ",
-        "photo_atk": "../assets/mage_person_atk.png",
-        "attacks": [
-          {"name": "Швидкий удар ножем у бік", "damage_mult": 0.8},
-          {"name": "Підступний випад", "damage_mult": 1.0},
-          {"name": "Удар руків'ям", "damage_mult": 1.2},
-          {"name": "Серія порізів", "damage_mult": 1.5},
-          {"name": "Відчайдушний випад", "damage_mult": 2.0}
-        ],
-        "defenses": [
-          {"name": "Закривається плащем", "defense_mult": 1.2},
-          {"name": "Відходить убік", "defense_mult": 1.4},
-          {"name": "Парирує удар", "defense_mult": 1.6},
-          {"name": "Ховається за укриттям", "defense_mult": 1.8},
-          {"name": "Брудний захисний прийом", "defense_mult": 2.0}
-        ]
-      },
+      "name": "Удар долонею",
+      "damage_mult": 0.9
+    },
+    {
+      "name": "Удар ліктем",
+      "damage_mult": 1.1
+    },
+    {
+      "name": "Серія кулаків",
+      "damage_mult": 1.3
+    },
+    {
+      "name": "Стрибковий удар",
+      "damage_mult": 1.6
+    },
+    {
+      "name": "Просвітлений натиск",
+      "damage_mult": 2.0
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Спокійна стійка",
+      "defense_mult": 1.3
+    },
+    {
+      "name": "Перехоплення удару",
+      "defense_mult": 1.5
+    },
+    {
+      "name": "Медитація",
+      "defense_mult": 1.7
+    },
+    {
+      "name": "Гармонія тіла",
+      "defense_mult": 1.9
+    },
+    {
+      "name": "Абсолютна рівновага",
+      "defense_mult": 2.1
+    }
+  ]
+},
 
-      "Злодій": {
-        "hp": 70,
-        "damage": 12,
-        "defense": 2,
-        "gold": 18,
-        "exp": 10,
-        "type_en": "ЗВИЧАЙНИЙ",
-        "photo_atk": "../assets/mage_person_atk.png",
-        "attacks": [
-          {"name": "Укол кинджалом", "damage_mult": 0.9},
-          {"name": "Удар із тіні", "damage_mult": 1.1},
-          {"name": "Різкий поріз", "damage_mult": 1.3},
-          {"name": "Прихована серія", "damage_mult": 1.6},
-          {"name": "Смертельний укол", "damage_mult": 2.1}
+"Skeleton": {
+  "hp": 75,
+  "damage": 13,
+  "defense": 2,
+  "gold": 19,
+  "exp": 10,
+  "type_en": "COMMON",
+  "photo_atk": "skeleton.png",
+  "attacks": [
+    {
+      "name": "Кістяний удар",
+      "damage_mult": 0.8
+    },
+    {
+      "name": "Іржавий розріз",
+      "damage_mult": 1.0
+    },
+    {
+      "name": "Проколювальний випад",
+      "damage_mult": 1.3
+    },
+    {
+      "name": "Шквал кісток",
+      "damage_mult": 1.6
+    },
+    {
+      "name": "Проклятий удар",
+      "damage_mult": 2.0
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Кістяний блок",
+      "defense_mult": 1.2
+    },
+    {
+      "name": "Збирає кістки",
+      "defense_mult": 1.4
+    },
+    {
+      "name": "Проклятий захист",
+      "defense_mult": 1.6
+    },
+    {
+      "name": "Кістяний панцир",
+      "defense_mult": 1.8
+    },
+    {
+      "name": "Некротичний бар'єр",
+      "defense_mult": 2.0
+    }
+              ]
+            }
+          }
         ],
-        "defenses": [
-          {"name": "Спритне ухилення", "defense_mult": 1.2},
-          {"name": "Тіньова стійка", "defense_mult": 1.4},
-          {"name": "Швидкий відступ", "defense_mult": 1.6},
-          {"name": "Зникнення в тіні", "defense_mult": 1.8},
-          {"name": "Примарний силует", "defense_mult": 2.0}
-        ]
-      },
+  "rare": [{
+  "Dark Ninja": {
+  "hp": 110,
+  "damage": 14,
+  "defense": 6,
+  "gold": 35,
+  "exp": 18,
+  "type_en": "RARE",
+  "photo_atk": "Dark ninja.png",
+  "attacks": [
+    {
+      "name": "Тіньовий розріз",
+      "damage_mult": 1.0
+    },
+    {
+      "name": "Подвійний удар",
+      "damage_mult": 1.3
+    },
+    {
+      "name": "Прихована атака",
+      "damage_mult": 1.6
+    },
+    {
+      "name": "Танець клинків",
+      "damage_mult": 2.0
+    },
+    {
+      "name": "Страта з тіні",
+      "damage_mult": 2.5
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Димова завіса",
+      "defense_mult": 1.4
+    },
+    {
+      "name": "Тіньовий крок",
+      "defense_mult": 1.6
+    },
+    {
+      "name": "Ухилення майстра",
+      "defense_mult": 1.8
+    },
+    {
+      "name": "Зникнення",
+      "defense_mult": 2.0
+    },
+    {
+      "name": "Абсолютна тінь",
+      "defense_mult": 2.3
+    }
+  ]
+},
 
-      "Найманець": {
-        "hp": 90,
-        "damage": 11,
-        "defense": 4,
-        "gold": 22,
-        "exp": 12,
-        "type_en": "ЗВИЧАЙНИЙ",
-        "photo_atk": "../assets/mage_person_atk.png",
-        "attacks": [
-          {"name": "Удар мечем", "damage_mult": 1.0},
-          {"name": "Рубаючий удар", "damage_mult": 1.2},
-          {"name": "Воїнський випад", "damage_mult": 1.4},
-          {"name": "Важка серія", "damage_mult": 1.7},
-          {"name": "Найманський добивальний удар", "damage_mult": 2.2}
-        ],
-        "defenses": [
-          {"name": "Піднімає щит", "defense_mult": 1.3},
-          {"name": "Військовий блок", "defense_mult": 1.5},
-          {"name": "Стійка ветерана", "defense_mult": 1.7},
-          {"name": "Залізна оборона", "defense_mult": 1.9},
-          {"name": "Незламний блок", "defense_mult": 2.1}
-        ]
-      },
+"Ice Warrior": {
+  "hp": 120,
+  "damage": 13,
+  "defense": 7,
+  "gold": 36,
+  "exp": 20,
+  "type_en": "RARE",
+  "photo_atk": "Ice warrior.png",
+  "attacks": [
+    {
+      "name": "Крижаний удар",
+      "damage_mult": 1.0
+    },
+    {
+      "name": "Морозний випад",
+      "damage_mult": 1.3
+    },
+    {
+      "name": "Крижані уламки",
+      "damage_mult": 1.6
+    },
+    {
+      "name": "Крижаний розлом",
+      "damage_mult": 2.0
+    },
+    {
+      "name": "Серце зими",
+      "damage_mult": 2.5
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Крижана шкіра",
+      "defense_mult": 1.4
+    },
+    {
+      "name": "Морозний щит",
+      "defense_mult": 1.6
+    },
+    {
+      "name": "Крижаний бар'єр",
+      "defense_mult": 1.8
+    },
+    {
+      "name": "Заморожена броня",
+      "defense_mult": 2.1
+    },
+    {
+      "name": "Вічна мерзлота",
+      "defense_mult": 2.4
+    }
+  ]
+},
+    "Fire Cultist": {
+  "hp": 100,
+  "damage": 16,
+  "defense": 5,
+  "gold": 34,
+  "exp": 19,
+  "type_en": "RARE",
+  "photo_atk": "fire cultist.png",
+  "attacks": [
+    {
+      "name": "Іскра хаосу",
+      "damage_mult": 1.0
+    },
+    {
+      "name": "Вогняна куля",
+      "damage_mult": 1.3
+    },
+    {
+      "name": "Палаючий вибух",
+      "damage_mult": 1.7
+    },
+    {
+      "name": "Хвиля полум'я",
+      "damage_mult": 2.1
+    },
+    {
+      "name": "Вогняний апокаліпсис",
+      "damage_mult": 2.6
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Вогняне коло",
+      "defense_mult": 1.3
+    },
+    {
+      "name": "Стіна вогню",
+      "defense_mult": 1.6
+    },
+    {
+      "name": "Палаючий бар'єр",
+      "defense_mult": 1.9
+    },
+    {
+      "name": "Щит саламандри",
+      "defense_mult": 2.2
+    },
+    {
+      "name": "Ядро вулкана",
+      "defense_mult": 2.5
+    }
+  ]
+},
 
-      "Монах": {
-        "hp": 85,
-        "damage": 10,
-        "defense": 5,
-        "gold": 20,
-        "exp": 11,
-        "type_en": "ЗВИЧАЙНИЙ",
-        "photo_atk": "../assets/mage_person_atk.png",
-        "attacks": [
-          {"name": "Удар долонею", "damage_mult": 0.9},
-          {"name": "Удар ліктем", "damage_mult": 1.1},
-          {"name": "Серія кулаків", "damage_mult": 1.3},
-          {"name": "Стрибковий удар", "damage_mult": 1.6},
-          {"name": "Просвітлений натиск", "damage_mult": 2.0}
-        ],
-        "defenses": [
-          {"name": "Спокійна стійка", "defense_mult": 1.3},
-          {"name": "Перехоплення удару", "defense_mult": 1.5},
-          {"name": "Медитація", "defense_mult": 1.7},
-          {"name": "Гармонія тіла", "defense_mult": 1.9},
-          {"name": "Абсолютна рівновага", "defense_mult": 2.1}
-        ]
-      },
+"Assassin": {
+  "hp": 95,
+  "damage": 18,
+  "defense": 4,
+  "gold": 33,
+  "exp": 21,
+  "type_en": "RARE",
+  "photo_atk": "assassin.png",
+  "attacks": [
+    {
+      "name": "Точний укол",
+      "damage_mult": 1.1
+    },
+    {
+      "name": "Удар у шию",
+      "damage_mult": 1.4
+    },
+    {
+      "name": "Смертельний поріз",
+      "damage_mult": 1.8
+    },
+    {
+      "name": "Серія вбивці",
+      "damage_mult": 2.2
+    },
+    {
+      "name": "Миттєва страта",
+      "damage_mult": 2.7
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Перекид",
+      "defense_mult": 1.4
+    },
+    {
+      "name": "Прихований відступ",
+      "defense_mult": 1.6
+    },
+    {
+      "name": "Тіньовий захист",
+      "defense_mult": 1.9
+    },
+    {
+      "name": "Оманливий маневр",
+      "defense_mult": 2.1
+    },
+    {
+      "name": "Невловимість",
+      "defense_mult": 2.4
+    }
+  ]
+}}],
+  "elite": [{"Arena Champion": {
+  "hp": 140,
+  "damage": 17,
+  "defense": 10,
+  "gold": 50,
+  "exp": 30,
+  "type_en": "ELITE",
+  "photo_atk": "Arena champion.png",
+  "attacks": [
+    {
+      "name": "Удар щитом",
+      "damage_mult": 1.1
+    },
+    {
+      "name": "Потужний розріз",
+      "damage_mult": 1.5
+    },
+    {
+      "name": "Комбо чемпіона",
+      "damage_mult": 1.9
+    },
+    {
+      "name": "Аренний натиск",
+      "damage_mult": 2.3
+    },
+    {
+      "name": "Сокрушення арени",
+      "damage_mult": 3.0
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Сталева стійка",
+      "defense_mult": 1.5
+    },
+    {
+      "name": "Глухий блок",
+      "defense_mult": 1.8
+    },
+    {
+      "name": "Захист чемпіона",
+      "defense_mult": 2.0
+    },
+    {
+      "name": "Залізний бастіон",
+      "defense_mult": 2.3
+    },
+    {
+      "name": "Непробивна оборона",
+      "defense_mult": 2.6
+    }
+  ]
+},
 
-      "Скелет": {
-        "hp": 75,
-        "damage": 13,
-        "defense": 2,
-        "gold": 19,
-        "exp": 10,
-        "type_en": "ЗВИЧАЙНИЙ",
-        "photo_atk": "../assets/mage_person_atk.png",
-        "attacks": [
-          {"name": "Кістяний удар", "damage_mult": 0.8},
-          {"name": "Іржавий розріз", "damage_mult": 1.0},
-          {"name": "Пронизуючий випад", "damage_mult": 1.3},
-          {"name": "Шквал кісток", "damage_mult": 1.6},
-          {"name": "Проклятий удар", "damage_mult": 2.0}
-        ],
-        "defenses": [
-          {"name": "Кістяний блок", "defense_mult": 1.2},
-          {"name": "Збирає кістки", "defense_mult": 1.4},
-          {"name": "Проклятий захист", "defense_mult": 1.6},
-          {"name": "Кістяний панцир", "defense_mult": 1.8},
-          {"name": "Некротичний бар'єр", "defense_mult": 2.0}
-        ]
-      },
+"Shadow Samurai": {
+  "hp": 150,
+  "damage": 18,
+  "defense": 11,
+  "gold": 55,
+  "exp": 32,
+  "type_en": "ELITE",
+  "photo_atk": "Shadow Samurai.png",
+  "attacks": [
+    {
+      "name": "Розріз катаною",
+      "damage_mult": 1.2
+    },
+    {
+      "name": "Швидкий випад",
+      "damage_mult": 1.5
+    },
+    {
+      "name": "Техніка півмісяця",
+      "damage_mult": 1.9
+    },
+    {
+      "name": "Танець клинка",
+      "damage_mult": 2.4
+    },
+    {
+      "name": "Тисяча розрізів",
+      "damage_mult": 3.0
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Самурайський блок",
+      "defense_mult": 1.5
+    },
+    {
+      "name": "Стійка журавля",
+      "defense_mult": 1.8
+    },
+    {
+      "name": "Шлях воїна",
+      "defense_mult": 2.0
+    },
+    {
+      "name": "Тіньовий захист",
+      "defense_mult": 2.3
+    },
+    {
+      "name": "Досконала техніка",
+      "defense_mult": 2.6
+    }
+  ]
+},"War Golem": {
+  "hp": 180,
+  "damage": 15,
+  "defense": 14,
+  "gold": 60,
+  "exp": 35,
+  "type_en": "ELITE",
+  "photo_atk": "War Golem.png",
+  "attacks": [
+    {
+      "name": "Кам'яний кулак",
+      "damage_mult": 1.1
+    },
+    {
+      "name": "Удар валуном",
+      "damage_mult": 1.5
+    },
+    {
+      "name": "Земний розлом",
+      "damage_mult": 2.0
+    },
+    {
+      "name": "Обвал",
+      "damage_mult": 2.5
+    },
+    {
+      "name": "Землетрус",
+      "damage_mult": 3.2
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Кам'яна шкіра",
+      "defense_mult": 1.6
+    },
+    {
+      "name": "Гранітний блок",
+      "defense_mult": 1.9
+    },
+    {
+      "name": "Жива скеля",
+      "defense_mult": 2.2
+    },
+    {
+      "name": "Гірська броня",
+      "defense_mult": 2.5
+    },
+    {
+      "name": "Абсолютний моноліт",
+      "defense_mult": 2.8
+    }
+  ]
+},
 
-      "Зомбі": {
-        "hp": 95,
-        "damage": 9,
-        "defense": 3,
-        "gold": 21,
-        "exp": 12,
-        "type_en": "ЗВИЧАЙНИЙ",
-        "photo_atk": "../assets/mage_person_atk.png",
-        "attacks": [
-          {"name": "Гнилий удар", "damage_mult": 0.8},
-          {"name": "Укус мерця", "damage_mult": 1.0},
-          {"name": "Хватка нежиті", "damage_mult": 1.2},
-          {"name": "Лютий натиск", "damage_mult": 1.5},
-          {"name": "Бенкет смерті", "damage_mult": 2.0}
-        ],
-        "defenses": [
-          {"name": "Плоть нежиті", "defense_mult": 1.3},
-          {"name": "Нечутливість до болю", "defense_mult": 1.5},
-          {"name": "Гнилий захист", "defense_mult": 1.7},
-          {"name": "Впертість мерця", "defense_mult": 1.9},
-          {"name": "Стійкість нежиті", "defense_mult": 2.2}
-        ]
-      }
+"Blood Knight": {
+  "hp": 160,
+  "damage": 19,
+  "defense": 12,
+  "gold": 58,
+  "exp": 34,
+  "type_en": "ELITE",
+  "photo_atk": "blood knight.png",
+  "attacks": [
+    {
+      "name": "Кривавий удар",
+      "damage_mult": 1.2
+    },
+    {
+      "name": "Проклятий розріз",
+      "damage_mult": 1.6
+    },
+    {
+      "name": "Жага крові",
+      "damage_mult": 2.0
+    },
+    {
+      "name": "Багряний натиск",
+      "damage_mult": 2.5
+    },
+    {
+      "name": "Кривава страта",
+      "damage_mult": 3.1
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Кривавий щит",
+      "defense_mult": 1.5
+    },
+    {
+      "name": "Поглинання болю",
+      "defense_mult": 1.8
+    },
+    {
+      "name": "Темна броня",
+      "defense_mult": 2.1
+    },
+    {
+      "name": "Кривавий бар'єр",
+      "defense_mult": 2.4
+    },
+    {
+      "name": "Безсмертя лицаря",
+      "defense_mult": 2.7
+    }
+  ]
+}}],
+  "boss": [{
+    "Dragon Slayer": {
+  "hp": 220,
+  "damage": 22,
+  "defense": 16,
+  "gold": 100,
+  "exp": 60,
+  "type_en": "BOSS",
+  "photo_atk": "Dragon Slayer.png",
+  "attacks": [
+    {
+      "name": "Удар мечем драконобійця",
+      "damage_mult": 1.3
+    },
+    {
+      "name": "Мисливський випад",
+      "damage_mult": 1.7
+    },
+    {
+      "name": "Розлом луски",
+      "damage_mult": 2.1
+    },
+    {
+      "name": "Легендарний удар",
+      "damage_mult": 2.7
+    },
+    {
+      "name": "Вбивця драконів",
+      "damage_mult": 3.4
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Стійкість мисливця",
+      "defense_mult": 1.6
+    },
+    {
+      "name": "Щит ветерана",
+      "defense_mult": 1.9
+    },
+    {
+      "name": "Луската броня",
+      "defense_mult": 2.2
+    },
+    {
+      "name": "Героїчний захист",
+      "defense_mult": 2.5
+    },
+    {
+      "name": "Легендарний бастіон",
+      "defense_mult": 2.8
+    }
+  ]
+},
+
+"Demon Lord": {
+  "hp": 250,
+  "damage": 24,
+  "defense": 18,
+  "gold": 120,
+  "exp": 70,
+  "type_en": "BOSS",
+  "photo_atk": "Demon Lord.png",
+  "attacks": [
+    {
+      "name": "Темне полум'я",
+      "damage_mult": 1.3
+    },
+    {
+      "name": "Проклята куля",
+      "damage_mult": 1.8
+    },
+    {
+      "name": "Вибух безодні",
+      "damage_mult": 2.3
+    },
+    {
+      "name": "Розрив простору",
+      "damage_mult": 2.8
+    },
+    {
+      "name": "Пекельне знищення",
+      "damage_mult": 4.0
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Демонічна аура",
+      "defense_mult": 1.6
+    },
+    {
+      "name": "Вогняний бар'єр",
+      "defense_mult": 2.0
+    },
+    {
+      "name": "Щит безодні",
+      "defense_mult": 2.3
+    },
+    {
+      "name": "Поглинання темряви",
+      "defense_mult": 2.6
+    },
+    {
+      "name": "Абсолютний захист демона",
+      "defense_mult": 3.0
+    }
+  ]
+},
+
+"Arena King": {
+  "hp": 230,
+  "damage": 23,
+  "defense": 17,
+  "gold": 110,
+  "exp": 65,
+  "type_en": "BOSS",
+  "photo_atk": "Arena king.png",
+  "attacks": [
+    {
+      "name": "Королівський удар",
+      "damage_mult": 1.3
+    },
+    {
+      "name": "Наказ до атаки",
+      "damage_mult": 1.7
+    },
+    {
+      "name": "Гнів короля",
+      "damage_mult": 2.2
+    },
+    {
+      "name": "Сокрушення трону",
+      "damage_mult": 2.8
+    },
+    {
+      "name": "Вирок чемпіона",
+      "damage_mult": 3.5
+    }
+  ],
+  "defenses": [
+    {
+      "name": "Королівська стійка",
+      "defense_mult": 1.6
+    },
+    {
+      "name": "Щит влади",
+      "defense_mult": 1.9
+    },
+    {
+      "name": "Захист трону",
+      "defense_mult": 2.2
+    },
+    {
+      "name": "Незламна воля",
+      "defense_mult": 2.5
+    },
+    {
+      "name": "Королівський бастіон",
+      "defense_mult": 2.9
     }
   ]
 }
+  }]
+  }
