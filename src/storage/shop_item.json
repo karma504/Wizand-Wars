@@ -1,7 +1,6 @@
 {
-
     "wood_sword": {
-        "name": "🪵 Деревянный меч",
+        "name": "🪵 Дерев'яний меч",
         "price": 150,
         "attack": 5,
         "defense": 0,
@@ -9,7 +8,7 @@
     },
 
     "iron_sword": {
-        "name": "⚔ Железный меч",
+        "name": "⚔ Залізний меч",
         "price": 300,
         "attack": 12,
         "defense": 0,
@@ -17,7 +16,7 @@
     },
 
     "magic_staff": {
-        "name": "🪄 Магический посох",
+        "name": "🪄 Магічний посох",
         "price": 500,
         "attack": 20,
         "defense": 5,
@@ -25,7 +24,7 @@
     },
 
     "small_shield": {
-        "name": "🛡 Маленький щит",
+        "name": "🛡 Малий щит",
         "price": 200,
         "attack": 0,
         "defense": 10,
@@ -33,7 +32,7 @@
     },
 
     "dragon_shield": {
-        "name": "🐉 Драконий щит",
+        "name": "🐉 Драконячий щит",
         "price": 700,
         "attack": 0,
         "defense": 25,
@@ -41,7 +40,7 @@
     },
 
     "health_potion": {
-        "name": "🧪 Зелье здоровья",
+        "name": "🧪 Зілля здоров'я",
         "price": 180,
         "attack": 0,
         "defense": 0,
@@ -49,7 +48,7 @@
     },
 
     "berserk_ring": {
-        "name": "💍 Кольцо берсерка",
+        "name": "💍 Перстень берсерка",
         "price": 450,
         "attack": 15,
         "defense": -5,
@@ -57,7 +56,7 @@
     },
 
     "heavy_armor": {
-        "name": "🥋 Тяжелая броня",
+        "name": "🥋 Важка броня",
         "price": 650,
         "attack": -3,
         "defense": 30,
@@ -65,11 +64,90 @@
     },
 
     "speed_boots": {
-        "name": "👢 Ботинки скорости",
+        "name": "👢 Чоботи швидкості",
         "price": 250,
         "attack": 3,
         "defense": 2,
         "hp": 10
-    }
+    },
 
+    "steel_sword": {
+        "name": "🗡 Сталевий меч",
+        "price": 850,
+        "attack": 22,
+        "defense": 2,
+        "hp": 0
+    },
+
+    "golden_sword": {
+        "name": "✨ Золотий меч",
+        "price": 1300,
+        "attack": 30,
+        "defense": 5,
+        "hp": 10
+    },
+
+    "knight_shield": {
+        "name": "🛡 Лицарський щит",
+        "price": 900,
+        "attack": 0,
+        "defense": 35,
+        "hp": 30
+    },
+
+    "paladin_armor": {
+        "name": "⚜ Броня паладина",
+        "price": 1500,
+        "attack": 5,
+        "defense": 45,
+        "hp": 80
+    },
+
+    "fire_ring": {
+        "name": "🔥 Перстень полум'я",
+        "price": 1000,
+        "attack": 25,
+        "defense": 0,
+        "hp": 0
+    },
+
+    "ice_amulet": {
+        "name": "❄ Крижаний амулет",
+        "price": 1100,
+        "attack": 8,
+        "defense": 18,
+        "hp": 20
+    },
+
+    "vampire_cloak": {
+        "name": "🦇 Плащ вампіра",
+        "price": 1400,
+        "attack": 15,
+        "defense": 15,
+        "hp": 50
+    },
+
+    "giant_hammer": {
+        "name": "🔨 Молот велетня",
+        "price": 1700,
+        "attack": 40,
+        "defense": -5,
+        "hp": 20
+    },
+
+    "elixir_of_life": {
+        "name": "🧬 Еліксир життя",
+        "price": 1200,
+        "attack": 0,
+        "defense": 0,
+        "hp": 100
+    },
+
+    "dragon_armor": {
+        "name": "🐲 Драконяча броня",
+        "price": 2500,
+        "attack": 10,
+        "defense": 60,
+        "hp": 120
+    }
 }
