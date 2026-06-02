@@ -88,7 +88,14 @@ def page_register(page: ft.Page):
         if validation_result != "ok":
             error_text.value = validation_result
             page.update()
-            return register_user(user_fd.value.strip(), email_fd.value.strip(), password_fd.value.strip())
+            return
+
+        register_user(
+            user_fd.value.strip(),
+            email_fd.value.strip(),
+            password_fd.value.strip()
+        )
+
         error_text.value = "Успіх!"
         page.update()
         await page.push_route("/variant_person")
