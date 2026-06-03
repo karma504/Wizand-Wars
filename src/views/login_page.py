@@ -1,9 +1,9 @@
 import flet as ft
 
-from ..models.auth_service import login_user
+from src.models.auth_service import login_user
 
 
-def login_page(page: ft.Page):
+def login_views(page: ft.Page):
 
     email_field = ft.TextField(
         label="Введіть еmail",
@@ -46,7 +46,7 @@ def login_page(page: ft.Page):
             page.update()
             return
 
-        await page.push_route("/variant_person")
+        await page.push_route("/battle")
 
     back_button = ft.IconButton(
         icon=ft.Icons.ARROW_BACK,

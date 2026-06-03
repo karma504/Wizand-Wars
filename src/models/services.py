@@ -3,7 +3,6 @@ from src.models.load_json import read_json
 
 
 def generate_enemy(hero_level):
-    """Random enemy generator based on hero level"""
 
     data = read_json('storage/enemies.json')
 

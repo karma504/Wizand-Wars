@@ -1,7 +1,7 @@
 import flet as ft
 
-from ..models.validator import validate_register
-from ..models.auth_service import register_user
+from src.models.validator import validate_register
+from src.models.auth_service import register_user
 
 
 def page_register(page: ft.Page):

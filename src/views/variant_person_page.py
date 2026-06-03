@@ -38,26 +38,59 @@ def build_card(page: ft.Page, character):
 
 
     return ft.Button(
+        style=ft.ButtonStyle(
+        bgcolor="white",
+        color="black",
+        side=ft.BorderSide(2, "#D4AF37"),
+        shape=ft.RoundedRectangleBorder(radius=20),
+        elevation=5,
+        padding=20,
+    ),
         content=ft.Column(
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
             expand=True,
-            spacing=5,
+            spacing=10,
 
             controls=[
                 ft.Text(
                     character["class"].upper(),
-                    size=20
+                    size=22,
+                    weight=ft.FontWeight.BOLD,
+                    color="#B8860B"
                 ),
+
+                ft.Divider(color="#E8D8A8"),
 
                 ft.Image(
                     src=character["photo"],
-                    height=300,
+                    height=600,
                     fit=ft.BoxFit.COVER
                 ),
 
-                ft.Text(f"❤️ HP: {character['hp']}"),
-                ft.Text(f"⚔️ ATK: {character['damage']}"),
-                ft.Text(f"🛡 DEF: {character['defense']}")
+                ft.Divider(color="#E8D8A8"),
+
+                ft.Container(
+                    bgcolor="#F8F5EF",
+                    border_radius=12,
+                    padding=10,
+                    content=ft.Column(
+                        spacing=5,
+                        controls=[
+                            ft.Text(
+                                f"❤️ HP: {character['hp']}",
+                                size=16
+                            ),
+                            ft.Text(
+                                f"⚔️ ATK: {character['damage']}",
+                                size=16
+                            ),
+                            ft.Text(
+                                f"🛡 DEF: {character['defense']}",
+                                size=16
+                            ),
+                        ]
+                    )
+                )
             ]
         ),
 
@@ -73,16 +106,34 @@ def build_card_views(page: ft.Page):
     characters_data = read_json("storage/person.json")
 
     for character in characters_data:
-        cards.append(build_card(page,character))
+        cards.append(
+            ft.Container(
+                content=build_card(page, character),
+                expand=1,
+                padding=10,
+            )
+        )
 
     return ft.View(
         route="/variant_person",
         controls=[
-            ft.Text("ВЫБОР ПЕРСОНАЖА", size=30),
+            ft.Container(
+                alignment=ft.Alignment.CENTER,
+                padding=20,
+                content=ft.Text(
+                    "ВИБІР ПЕРСОНАЖА",
+                    size=30,
+                    weight=ft.FontWeight.BOLD,
+                    color="#B8860B",
+                    text_align=ft.TextAlign.CENTER,
+                ),
+            ),
+
             ft.Row(
+                controls=cards,
+                expand=True,
                 alignment=ft.MainAxisAlignment.CENTER,
-                wrap=True,
-                controls=cards
+                vertical_alignment=ft.CrossAxisAlignment.START,
             )
         ]
     )

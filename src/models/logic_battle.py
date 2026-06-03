@@ -1,10 +1,7 @@
 import random
 
 
-# --- Вспомогательные функции ---
-
 def get_max_damage(base_damage, attacks):
-    """Максимально возможный урон = база * максимальный множитель среди атак."""
     if not attacks:
         return int(base_damage)
     max_mult = max(a.get("damage_mult", 1) for a in attacks)
@@ -12,7 +9,6 @@ def get_max_damage(base_damage, attacks):
 
 
 def get_max_defense(base_defense, defenses):
-    """Максимально возможная защита = база * максимальный множитель среди защит."""
     if not defenses:
         return int(base_defense)
     max_mult = max(d.get("defense_mult", 1) for d in defenses)
@@ -20,10 +16,6 @@ def get_max_defense(base_defense, defenses):
 
 
 def crit(dmg, chance=0.2, max_dmg=None):
-    """
-    Критический удар удваивает урон.
-    Если передан max_dmg — итог обрезается до этого максимума.
-    """
     if random.random() < chance:
         result = int(dmg * 2)
     else:
@@ -36,20 +28,13 @@ def crit(dmg, chance=0.2, max_dmg=None):
 
 
 def apply_def(dmg, defense):
-    """
-    Вычитает защиту из урона.
-    Если урон меньше/равен нулю — возвращает 25% от исходного урона (минимальный урон).
-    """
     reduced = dmg - defense
     if reduced > 0:
         return int(reduced)
     return int(dmg * 0.25)
 
 
-# --- Получение вариантов действий ---
-
 def get_player_actions(player_stats, atk_def):
-    """Возвращает 3 случайных варианта атаки или защиты для игрока."""
     if atk_def == "atk":
         attacks = player_stats.get("attacks", [])
         return {
@@ -64,7 +49,6 @@ def get_player_actions(player_stats, atk_def):
 
 
 def get_enemy_action(enemy, atk_def):
-    """Возвращает случайное действие врага."""
     if atk_def == "atk":
         attack = random.choice(enemy.get("attacks", [])) if enemy.get("attacks") else None
         return {"attack": attack}
@@ -74,16 +58,14 @@ def get_enemy_action(enemy, atk_def):
     return {}
 
 
-# --- Раунд боя (для автоматического режима) ---
-
 def battle_round(
-    player_hp,
-    enemy_hp,
-    player_action,
-    enemy_action,
-    player,
-    enemy,
-    enemy_type="common"
+        player_hp,
+        enemy_hp,
+        player_action,
+        enemy_action,
+        player,
+        enemy,
+        enemy_type="common"
 ):
     multipliers = {
         "common": 1,
@@ -145,13 +127,13 @@ def battle_round(
     enemy_hp -= damage_to_enemy
 
     if player_hp <= 0 and enemy_hp <= 0:
-        return "Ничья"
+        return "Ничія"
 
     if enemy_hp <= 0:
-        return "Победа"
+        return "Вийграш"
 
     if player_hp <= 0:
-        return "Поражение"
+        return "Поразка"
 
     return {
         "player_hp": player_hp,
@@ -165,3 +147,4 @@ def battle_round(
         "player_attack_used": player_attack.get("name"),
         "enemy_attack_used": enemy_attack.get("name"),
     }
+

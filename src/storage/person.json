@@ -1,8 +1,8 @@
 [
  {
   "class": "Воїн",
-  "photo": "warrior_pers.png",
-  "photo_atk": "warrior_pers.png",
+  "photo": "warrior.png",
+  "photo_atk": "",
   "hp": 120,
   "damage": 15,
   "defense": 10,
@@ -29,7 +29,7 @@
     {"name": "Бойовий натиск", "damage_mult": 1.4},
     {"name": "Критичний випад", "damage_mult": 1.45},
     {"name": "Удар у голову", "damage_mult": 1.5},
-    {"name": "Залізний удар", "damage_mult": 1.55},
+    {"name": "Залізний удар", "damage_mult": 1.55}
 
   ],
 
@@ -43,18 +43,18 @@
     {"name": "Парирування", "defense_mult": 1.45},
     {"name": "Ухилення вбік", "defense_mult": 1.5},
     {"name": "Захисна стійка", "defense_mult": 1.55},
-    {"name": "Щитова стіна", "defense_mult": 1.6},
+    {"name": "Щитова стіна", "defense_mult": 1.6}
     ]
   },
     {
     "class": "Маг",
-    "photo": "mage_person.png",
-    "photo_atk": "mage_person_atk.png",
+    "photo": "mage.png",
+    "photo_atk": "mage_atk.png",
     "hp": 80,
     "damage": 25,
     "defense": 3,
     "level": 1,
-    "gold": 50,
+    "gold": 300,
 
     "attacks": [
       {"name": "Слабий магічний заряд", "damage_mult": 0.5},
@@ -94,8 +94,8 @@
   },
     {
     "class": "Лучник",
-    "photo": "",
-    "photo_atk": "warrior_pers.png",
+    "photo": "archer.png",
+    "photo_atk": "archer.png",
     "hp": 100,
     "damage": 18,
     "defense": 6,

@@ -1,0 +1,1890 @@
+[
+    {
+        "user": "ФІВАПРОЛД",
+        "email": "івапр@dada.daa",
+        "password": "sdfghj!1",
+        "stats": {
+            "class": "Воїн",
+            "photo": "warrior_pers.png",
+            "photo_atk": "warrior_pers.png",
+            "hp": 120,
+            "damage": 15,
+            "defense": 10,
+            "level": 1,
+            "gold": 50,
+            "inventory": [
+                {
+                    "name": "🪵 Деревянный меч",
+                    "price": 150,
+                    "attack": 5,
+                    "defense": 0,
+                    "hp": 0
+                },
+                {
+                    "name": "⚔ Железный меч",
+                    "price": 300,
+                    "attack": 12,
+                    "defense": 0,
+                    "hp": 0
+                },
+                {
+                    "name": "🪄 Магический посох",
+                    "price": 500,
+                    "attack": 20,
+                    "defense": 5,
+                    "hp": 0
+                }
+            ],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sxssd",
+        "email": "qwqwq@qwq.wq",
+        "password": "cvbnm!1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sdfghjs",
+        "email": "sasas@sasas.as",
+        "password": "qwqwq!1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "xwwsw",
+        "email": "wsw@ss.asa",
+        "password": "xcvbnm!1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sdfghj",
+        "email": "sasas@sas.sas",
+        "password": "cvbnm!1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "ddasasas",
+        "email": "xvccv@vcv.cvvc",
+        "password": "xcvb!1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sqsqsqs",
+        "email": "aass@as.sas",
+        "password": "cvbnm!1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sasas",
+        "email": "sasasw@aas.sas",
+        "password": "vbnm,!2",
+        "stats": {
+            "class": "Воїн",
+            "photo": "warrior_pers.png",
+            "photo_atk": "warrior_pers.png",
+            "hp": 115,
+            "damage": 15,
+            "defense": 10,
+            "level": 1,
+            "gold": 1060,
+            "inventory": [],
+            "attacks": [
+                {
+                    "name": "Слабкий удар мечем",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Удар плазом",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Швидкий замах",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Рубаючий удар",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Удар щитом",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Комбінація 2 ударів",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Удар в корпус",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Сильний замах",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Пробивний удар",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Точний удар",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Яростний випад",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Швидка серія",
+                    "damage_mult": 1.15
+                },
+                {
+                    "name": "Удар у плече",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Сильний рубіж",
+                    "damage_mult": 1.25
+                },
+                {
+                    "name": "Удар з розвороту",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Сокрушний удар",
+                    "damage_mult": 1.35
+                },
+                {
+                    "name": "Бойовий натиск",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Критичний випад",
+                    "damage_mult": 1.45
+                },
+                {
+                    "name": "Удар у голову",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Залізний удар",
+                    "damage_mult": 1.55
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Легке ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Блок мечем",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Піднятий щит",
+                    "defense_mult": 1.25
+                },
+                {
+                    "name": "Крок назад",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Стандартна оборона",
+                    "defense_mult": 1.35
+                },
+                {
+                    "name": "Жорсткий блок",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Парирування",
+                    "defense_mult": 1.45
+                },
+                {
+                    "name": "Ухилення вбік",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисна стійка",
+                    "defense_mult": 1.55
+                },
+                {
+                    "name": "Щитова стіна",
+                    "defense_mult": 1.6
+                }
+            ],
+            "exp": 30
+        },
+        "enemy": null
+    },
+    {
+        "user": "sdffdfd",
+        "email": "asas@aas.sas",
+        "password": "cvbnm!1",
+        "stats": {
+            "class": "Воїн",
+            "photo": "warrior_pers.png",
+            "photo_atk": "warrior_pers.png",
+            "hp": 115,
+            "damage": 32,
+            "defense": 10,
+            "level": 1,
+            "gold": 495,
+            "inventory": [
+                {
+                    "name": "🪵 Дерев'яний меч",
+                    "price": 150,
+                    "attack": 5,
+                    "defense": 0,
+                    "hp": 0
+                },
+                {
+                    "name": "⚔ Залізний меч",
+                    "price": 300,
+                    "attack": 12,
+                    "defense": 0,
+                    "hp": 0
+                }
+            ],
+            "attacks": [
+                {
+                    "name": "Слабкий удар мечем",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Удар плазом",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Швидкий замах",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Рубаючий удар",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Удар щитом",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Комбінація 2 ударів",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Удар в корпус",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Сильний замах",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Пробивний удар",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Точний удар",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Яростний випад",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Швидка серія",
+                    "damage_mult": 1.15
+                },
+                {
+                    "name": "Удар у плече",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Сильний рубіж",
+                    "damage_mult": 1.25
+                },
+                {
+                    "name": "Удар з розвороту",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Сокрушний удар",
+                    "damage_mult": 1.35
+                },
+                {
+                    "name": "Бойовий натиск",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Критичний випад",
+                    "damage_mult": 1.45
+                },
+                {
+                    "name": "Удар у голову",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Залізний удар",
+                    "damage_mult": 1.55
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Легке ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Блок мечем",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Піднятий щит",
+                    "defense_mult": 1.25
+                },
+                {
+                    "name": "Крок назад",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Стандартна оборона",
+                    "defense_mult": 1.35
+                },
+                {
+                    "name": "Жорсткий блок",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Парирування",
+                    "defense_mult": 1.45
+                },
+                {
+                    "name": "Ухилення вбік",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисна стійка",
+                    "defense_mult": 1.55
+                },
+                {
+                    "name": "Щитова стіна",
+                    "defense_mult": 1.6
+                }
+            ]
+        },
+        "enemy": null
+    },
+    {
+        "user": "sasasas",
+        "email": "fdghj@sas.sas",
+        "password": "cvbnm!1",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage_person.png",
+            "photo_atk": "mage_person_atk.png",
+            "hp": 80,
+            "damage": 25,
+            "defense": 3,
+            "level": 1,
+            "gold": 50,
+            "inventory": [],
+            "attacks": [
+                {
+                    "name": "Слабий магічний заряд",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Іскра вогню",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Крижаний постріл",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Магічний поштовх",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Енергетична хвиля",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Вогняна стріла",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Льодяний уламок",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Блискавичний розряд",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Темна іскра",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Магічний вибух",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Полум’яний вибух",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Крижана буря",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Блискавичний ланцюг",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Магічний розрив",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Вогняний шквал",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Темна хвиля",
+                    "damage_mult": 1.6
+                },
+                {
+                    "name": "Арканічний вибух",
+                    "damage_mult": 1.7
+                },
+                {
+                    "name": "Буря стихій",
+                    "damage_mult": 1.8
+                },
+                {
+                    "name": "Метеоритний удар",
+                    "damage_mult": 1.9
+                },
+                {
+                    "name": "Апокаліптична магія",
+                    "damage_mult": 2.0
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Магічне ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Слабкий щит",
+                    "defense_mult": 1.15
+                },
+                {
+                    "name": "Енергетичний бар’єр",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Телепорт",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Крижаний щит",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Магічна броня",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисне поле",
+                    "defense_mult": 1.6
+                },
+                {
+                    "name": "Арканічний бар’єр",
+                    "defense_mult": 1.7
+                },
+                {
+                    "name": "Відбиття магії",
+                    "defense_mult": 1.8
+                },
+                {
+                    "name": "Абсолютний бар’єр",
+                    "defense_mult": 2.0
+                }
+            ]
+        },
+        "enemy": null
+    },
+    {
+        "user": "FGHJ",
+        "email": "fghjk@sasa.sas",
+        "password": "dfghjk!1",
+        "stats": {
+            "class": "Воїн",
+            "photo": "warrior_pers.png",
+            "photo_atk": "warrior_pers.png",
+            "hp": 120,
+            "damage": 15,
+            "defense": 10,
+            "level": 1,
+            "gold": 1000,
+            "inventory": [],
+            "attacks": [
+                {
+                    "name": "Слабкий удар мечем",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Удар плазом",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Швидкий замах",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Рубаючий удар",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Удар щитом",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Комбінація 2 ударів",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Удар в корпус",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Сильний замах",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Пробивний удар",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Точний удар",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Яростний випад",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Швидка серія",
+                    "damage_mult": 1.15
+                },
+                {
+                    "name": "Удар у плече",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Сильний рубіж",
+                    "damage_mult": 1.25
+                },
+                {
+                    "name": "Удар з розвороту",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Сокрушний удар",
+                    "damage_mult": 1.35
+                },
+                {
+                    "name": "Бойовий натиск",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Критичний випад",
+                    "damage_mult": 1.45
+                },
+                {
+                    "name": "Удар у голову",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Залізний удар",
+                    "damage_mult": 1.55
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Легке ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Блок мечем",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Піднятий щит",
+                    "defense_mult": 1.25
+                },
+                {
+                    "name": "Крок назад",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Стандартна оборона",
+                    "defense_mult": 1.35
+                },
+                {
+                    "name": "Жорсткий блок",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Парирування",
+                    "defense_mult": 1.45
+                },
+                {
+                    "name": "Ухилення вбік",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисна стійка",
+                    "defense_mult": 1.55
+                },
+                {
+                    "name": "Щитова стіна",
+                    "defense_mult": 1.6
+                }
+            ]
+        },
+        "enemy": null
+    },
+    {
+        "user": "sasas",
+        "email": "sdfgh@asas.sa",
+        "password": "cvbnm!2",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage_person.png",
+            "photo_atk": "mage_person_atk.png",
+            "hp": 80,
+            "damage": 25,
+            "defense": 3,
+            "level": 1,
+            "gold": 50,
+            "inventory": [],
+            "attacks": [
+                {
+                    "name": "Слабий магічний заряд",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Іскра вогню",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Крижаний постріл",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Магічний поштовх",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Енергетична хвиля",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Вогняна стріла",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Льодяний уламок",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Блискавичний розряд",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Темна іскра",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Магічний вибух",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Полум’яний вибух",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Крижана буря",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Блискавичний ланцюг",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Магічний розрив",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Вогняний шквал",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Темна хвиля",
+                    "damage_mult": 1.6
+                },
+                {
+                    "name": "Арканічний вибух",
+                    "damage_mult": 1.7
+                },
+                {
+                    "name": "Буря стихій",
+                    "damage_mult": 1.8
+                },
+                {
+                    "name": "Метеоритний удар",
+                    "damage_mult": 1.9
+                },
+                {
+                    "name": "Апокаліптична магія",
+                    "damage_mult": 2.0
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Магічне ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Слабкий щит",
+                    "defense_mult": 1.15
+                },
+                {
+                    "name": "Енергетичний бар’єр",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Телепорт",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Крижаний щит",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Магічна броня",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисне поле",
+                    "defense_mult": 1.6
+                },
+                {
+                    "name": "Арканічний бар’єр",
+                    "defense_mult": 1.7
+                },
+                {
+                    "name": "Відбиття магії",
+                    "defense_mult": 1.8
+                },
+                {
+                    "name": "Абсолютний бар’єр",
+                    "defense_mult": 2.0
+                }
+            ]
+        },
+        "enemy": null
+    },
+    {
+        "user": "sasas",
+        "email": "sdsd@sas.sas",
+        "password": "dfghj!2",
+        "stats": {
+            "class": "Воїн",
+            "photo": "warrior_pers.png",
+            "photo_atk": "warrior_pers.png",
+            "hp": 120,
+            "damage": 15,
+            "defense": 10,
+            "level": 1,
+            "gold": 1000,
+            "inventory": [],
+            "attacks": [
+                {
+                    "name": "Слабкий удар мечем",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Удар плазом",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Швидкий замах",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Рубаючий удар",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Удар щитом",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Комбінація 2 ударів",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Удар в корпус",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Сильний замах",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Пробивний удар",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Точний удар",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Яростний випад",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Швидка серія",
+                    "damage_mult": 1.15
+                },
+                {
+                    "name": "Удар у плече",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Сильний рубіж",
+                    "damage_mult": 1.25
+                },
+                {
+                    "name": "Удар з розвороту",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Сокрушний удар",
+                    "damage_mult": 1.35
+                },
+                {
+                    "name": "Бойовий натиск",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Критичний випад",
+                    "damage_mult": 1.45
+                },
+                {
+                    "name": "Удар у голову",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Залізний удар",
+                    "damage_mult": 1.55
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Легке ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Блок мечем",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Піднятий щит",
+                    "defense_mult": 1.25
+                },
+                {
+                    "name": "Крок назад",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Стандартна оборона",
+                    "defense_mult": 1.35
+                },
+                {
+                    "name": "Жорсткий блок",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Парирування",
+                    "defense_mult": 1.45
+                },
+                {
+                    "name": "Ухилення вбік",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисна стійка",
+                    "defense_mult": 1.55
+                },
+                {
+                    "name": "Щитова стіна",
+                    "defense_mult": 1.6
+                }
+            ]
+        },
+        "enemy": null
+    },
+    {
+        "user": "dwsd",
+        "email": "QWQW@gamds.dsd",
+        "password": "qwer!1",
+        "stats": {
+            "class": "Воїн",
+            "photo": "warrior_pers.png",
+            "photo_atk": "warrior_pers.png",
+            "hp": 120,
+            "damage": 15,
+            "defense": 10,
+            "level": 1,
+            "gold": 1000,
+            "inventory": [],
+            "attacks": [
+                {
+                    "name": "Слабкий удар мечем",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Удар плазом",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Швидкий замах",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Рубаючий удар",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Удар щитом",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Комбінація 2 ударів",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Удар в корпус",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Сильний замах",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Пробивний удар",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Точний удар",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Яростний випад",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Швидка серія",
+                    "damage_mult": 1.15
+                },
+                {
+                    "name": "Удар у плече",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Сильний рубіж",
+                    "damage_mult": 1.25
+                },
+                {
+                    "name": "Удар з розвороту",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Сокрушний удар",
+                    "damage_mult": 1.35
+                },
+                {
+                    "name": "Бойовий натиск",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Критичний випад",
+                    "damage_mult": 1.45
+                },
+                {
+                    "name": "Удар у голову",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Залізний удар",
+                    "damage_mult": 1.55
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Легке ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Блок мечем",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Піднятий щит",
+                    "defense_mult": 1.25
+                },
+                {
+                    "name": "Крок назад",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Стандартна оборона",
+                    "defense_mult": 1.35
+                },
+                {
+                    "name": "Жорсткий блок",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Парирування",
+                    "defense_mult": 1.45
+                },
+                {
+                    "name": "Ухилення вбік",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисна стійка",
+                    "defense_mult": 1.55
+                },
+                {
+                    "name": "Щитова стіна",
+                    "defense_mult": 1.6
+                }
+            ]
+        },
+        "enemy": null
+    },
+    {
+        "user": "sdsd",
+        "email": "ddsd@sas.asd",
+        "password": "fghj\\12",
+        "stats": {
+            "class": "Воїн",
+            "photo": "warrior_pers.png",
+            "photo_atk": "warrior_pers.png",
+            "hp": 120,
+            "damage": 15,
+            "defense": 10,
+            "level": 1,
+            "gold": 1000,
+            "inventory": [],
+            "attacks": [
+                {
+                    "name": "Слабкий удар мечем",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Удар плазом",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Швидкий замах",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Рубаючий удар",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Удар щитом",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Комбінація 2 ударів",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Удар в корпус",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Сильний замах",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Пробивний удар",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Точний удар",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Яростний випад",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Швидка серія",
+                    "damage_mult": 1.15
+                },
+                {
+                    "name": "Удар у плече",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Сильний рубіж",
+                    "damage_mult": 1.25
+                },
+                {
+                    "name": "Удар з розвороту",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Сокрушний удар",
+                    "damage_mult": 1.35
+                },
+                {
+                    "name": "Бойовий натиск",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Критичний випад",
+                    "damage_mult": 1.45
+                },
+                {
+                    "name": "Удар у голову",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Залізний удар",
+                    "damage_mult": 1.55
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Легке ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Блок мечем",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Піднятий щит",
+                    "defense_mult": 1.25
+                },
+                {
+                    "name": "Крок назад",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Стандартна оборона",
+                    "defense_mult": 1.35
+                },
+                {
+                    "name": "Жорсткий блок",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Парирування",
+                    "defense_mult": 1.45
+                },
+                {
+                    "name": "Ухилення вбік",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисна стійка",
+                    "defense_mult": 1.55
+                },
+                {
+                    "name": "Щитова стіна",
+                    "defense_mult": 1.6
+                }
+            ]
+        },
+        "enemy": null
+    },
+    {
+        "user": "ssasas",
+        "email": "sdfghj@sas.sas",
+        "password": "fghjkds!2",
+        "stats": {
+            "class": "Воїн",
+            "photo": "warrior_pers.png",
+            "photo_atk": "warrior_pers.png",
+            "hp": 120,
+            "damage": 15,
+            "defense": 10,
+            "level": 1,
+            "gold": 1000,
+            "inventory": [],
+            "attacks": [
+                {
+                    "name": "Слабкий удар мечем",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Удар плазом",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Швидкий замах",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Рубаючий удар",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Удар щитом",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Комбінація 2 ударів",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Удар в корпус",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Сильний замах",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Пробивний удар",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Точний удар",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Яростний випад",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Швидка серія",
+                    "damage_mult": 1.15
+                },
+                {
+                    "name": "Удар у плече",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Сильний рубіж",
+                    "damage_mult": 1.25
+                },
+                {
+                    "name": "Удар з розвороту",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Сокрушний удар",
+                    "damage_mult": 1.35
+                },
+                {
+                    "name": "Бойовий натиск",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Критичний випад",
+                    "damage_mult": 1.45
+                },
+                {
+                    "name": "Удар у голову",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Залізний удар",
+                    "damage_mult": 1.55
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Легке ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Блок мечем",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Піднятий щит",
+                    "defense_mult": 1.25
+                },
+                {
+                    "name": "Крок назад",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Стандартна оборона",
+                    "defense_mult": 1.35
+                },
+                {
+                    "name": "Жорсткий блок",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Парирування",
+                    "defense_mult": 1.45
+                },
+                {
+                    "name": "Ухилення вбік",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисна стійка",
+                    "defense_mult": 1.55
+                },
+                {
+                    "name": "Щитова стіна",
+                    "defense_mult": 1.6
+                }
+            ]
+        },
+        "enemy": null
+    },
+    {
+        "user": "qsqss",
+        "email": "jhgfds@sas.sasa",
+        "password": "sasas!2",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage_person.png",
+            "photo_atk": "mage_person_atk.png",
+            "hp": 80,
+            "damage": 25,
+            "defense": 3,
+            "level": 1,
+            "gold": 50,
+            "inventory": [],
+            "attacks": [
+                {
+                    "name": "Слабий магічний заряд",
+                    "damage_mult": 0.5
+                },
+                {
+                    "name": "Іскра вогню",
+                    "damage_mult": 0.55
+                },
+                {
+                    "name": "Крижаний постріл",
+                    "damage_mult": 0.6
+                },
+                {
+                    "name": "Магічний поштовх",
+                    "damage_mult": 0.65
+                },
+                {
+                    "name": "Енергетична хвиля",
+                    "damage_mult": 0.7
+                },
+                {
+                    "name": "Вогняна стріла",
+                    "damage_mult": 0.75
+                },
+                {
+                    "name": "Льодяний уламок",
+                    "damage_mult": 0.8
+                },
+                {
+                    "name": "Блискавичний розряд",
+                    "damage_mult": 0.85
+                },
+                {
+                    "name": "Темна іскра",
+                    "damage_mult": 0.9
+                },
+                {
+                    "name": "Магічний вибух",
+                    "damage_mult": 1.0
+                },
+                {
+                    "name": "Полум’яний вибух",
+                    "damage_mult": 1.1
+                },
+                {
+                    "name": "Крижана буря",
+                    "damage_mult": 1.2
+                },
+                {
+                    "name": "Блискавичний ланцюг",
+                    "damage_mult": 1.3
+                },
+                {
+                    "name": "Магічний розрив",
+                    "damage_mult": 1.4
+                },
+                {
+                    "name": "Вогняний шквал",
+                    "damage_mult": 1.5
+                },
+                {
+                    "name": "Темна хвиля",
+                    "damage_mult": 1.6
+                },
+                {
+                    "name": "Арканічний вибух",
+                    "damage_mult": 1.7
+                },
+                {
+                    "name": "Буря стихій",
+                    "damage_mult": 1.8
+                },
+                {
+                    "name": "Метеоритний удар",
+                    "damage_mult": 1.9
+                },
+                {
+                    "name": "Апокаліптична магія",
+                    "damage_mult": 2.0
+                }
+            ],
+            "defenses": [
+                {
+                    "name": "Магічне ухилення",
+                    "defense_mult": 1.1
+                },
+                {
+                    "name": "Слабкий щит",
+                    "defense_mult": 1.15
+                },
+                {
+                    "name": "Енергетичний бар’єр",
+                    "defense_mult": 1.2
+                },
+                {
+                    "name": "Телепорт",
+                    "defense_mult": 1.3
+                },
+                {
+                    "name": "Крижаний щит",
+                    "defense_mult": 1.4
+                },
+                {
+                    "name": "Магічна броня",
+                    "defense_mult": 1.5
+                },
+                {
+                    "name": "Захисне поле",
+                    "defense_mult": 1.6
+                },
+                {
+                    "name": "Арканічний бар’єр",
+                    "defense_mult": 1.7
+                },
+                {
+                    "name": "Відбиття магії",
+                    "defense_mult": 1.8
+                },
+                {
+                    "name": "Абсолютний бар’єр",
+                    "defense_mult": 2.0
+                }
+            ]
+        },
+        "enemy": null
+    },
+    {
+        "user": "ddds",
+        "email": "dfgh@dsds.sds",
+        "password": "ertyuw@1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "dsdsd",
+        "email": "asdf@dsd.dadds",
+        "password": "ewqqq!1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "gfdfdfds",
+        "email": "dsas@as.saa",
+        "password": "xcvbn@1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sdds",
+        "email": "dsd@dsd.sds",
+        "password": "xcvbn!2",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "fdded",
+        "email": "sds@sds.dsd",
+        "password": "sddsd!2",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "swws",
+        "email": "wqwqw@sas.asas",
+        "password": "skjdsd!2",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage_person.png",
+            "photo_atk": "mage_person_atk.png",
+            "hp": 80,
+            "damage": 25,
+            "defense": 3,
+            "level": 1,
+            "gold": 50,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "wwdwd",
+        "email": "xsdsd@adad.dsads",
+        "password": "xcvbnm!1",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage_person.png",
+            "photo_atk": "mage_person_atk.png",
+            "hp": 80,
+            "damage": 25,
+            "defense": 3,
+            "level": 1,
+            "gold": 50,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "wew",
+        "email": "weew@sas.sa",
+        "password": "sdfghj!2",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage_person.png",
+            "photo_atk": "mage_person_atk.png",
+            "hp": 80,
+            "damage": 25,
+            "defense": 3,
+            "level": 1,
+            "gold": 50,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "assaa",
+        "email": "ssas@sas.asa",
+        "password": "ytredsa!1",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage_person.png",
+            "photo_atk": "mage_person_atk.png",
+            "hp": 80,
+            "damage": 25,
+            "defense": 3,
+            "level": 1,
+            "gold": 50,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sdsd",
+        "email": "sdfgh@dsd.sd",
+        "password": "sdfghj!2",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sdsdsd",
+        "email": "sdsd@dsd.dss",
+        "password": "asdfgh!2",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage.png",
+            "photo_atk": "mage_person_atk.png",
+            "hp": 80,
+            "damage": 25,
+            "defense": 3,
+            "level": 1,
+            "gold": 50,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "ssx",
+        "email": "xsxs@sdsd.dsds",
+        "password": "hgfds!2",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sas",
+        "email": "fgfsaa@ssa.sa",
+        "password": "sdfg!q1",
+        "stats": {
+            "class": "",
+            "photo": "",
+            "photo_atk": "",
+            "hp": 0,
+            "damage": 0,
+            "defense": 0,
+            "level": 0,
+            "gold": 0,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "qsqsq",
+        "email": "qsqs@sas.sa",
+        "password": "sdfgh@1",
+        "stats": {
+            "class": "Воїн",
+            "photo": "warrior.png",
+            "photo_atk": "warrior_pers.png",
+            "hp": 120,
+            "damage": 52,
+            "defense": 15,
+            "level": 1,
+            "gold": 50,
+            "inventory": [
+                {
+                    "name": "🪄 Магічний посох",
+                    "price": 500,
+                    "attack": 20,
+                    "defense": 5,
+                    "hp": 0
+                },
+                {
+                    "name": "⚔ Залізний меч",
+                    "price": 300,
+                    "attack": 12,
+                    "defense": 0,
+                    "hp": 0
+                },
+                {
+                    "name": "🪵 Дерев'яний меч",
+                    "price": 150,
+                    "attack": 5,
+                    "defense": 0,
+                    "hp": 0
+                }
+            ],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    },
+    {
+        "user": "sassa",
+        "email": "asas@qsws.sws",
+        "password": "wssw@1",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage.png",
+            "photo_atk": "mage_atk.png",
+            "hp": 80,
+            "damage": 25,
+            "defense": 3,
+            "level": 1,
+            "gold": 5000,
+            "inventory": [],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
+    }
+]
