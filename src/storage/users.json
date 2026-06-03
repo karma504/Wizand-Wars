@@ -1886,5 +1886,32 @@
             "defenses": []
         },
         "enemy": null
+    },
+    {
+        "user": "Anastasiya",
+        "email": "anastasiya@gmail.com",
+        "password": "anastasiya!2",
+        "stats": {
+            "class": "Маг",
+            "photo": "mage.png",
+            "photo_atk": "mage_atk.png",
+            "hp": 70,
+            "damage": 37,
+            "defense": 3,
+            "level": 1,
+            "gold": 0,
+            "inventory": [
+                {
+                    "name": "⚔ Залізний меч",
+                    "price": 300,
+                    "attack": 12,
+                    "defense": 0,
+                    "hp": 0
+                }
+            ],
+            "attacks": [],
+            "defenses": []
+        },
+        "enemy": null
     }
 ]

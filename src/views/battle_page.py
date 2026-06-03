@@ -345,7 +345,7 @@ def battle_page(page: ft.Page):
                     f"Атака: {player_dmg}\n"
                     f"Захист ворога: {enemy_def}"
                 ),
-                ft.Colors.ORANGE_300,
+                ft.Colors.YELLOW_300,
             )
             return
 
@@ -719,7 +719,7 @@ def battle_page(page: ft.Page):
         ),
     )
 
-    attack_btn = ft.ElevatedButton(
+    attack_btn = ft.Button(
         "⚔ Атака",
         width=180,
         height=54,
@@ -731,7 +731,7 @@ def battle_page(page: ft.Page):
         on_click=on_attack_click,
     )
 
-    defense_btn = ft.ElevatedButton(
+    defense_btn = ft.Button(
         "🛡 Захист",
         width=180,
         height=54,
@@ -743,7 +743,7 @@ def battle_page(page: ft.Page):
         on_click=on_defense_click,
     )
 
-    exit_btn = ft.ElevatedButton(
+    exit_btn = ft.Button(
         "🚪 Вийти",
         width=180,
         height=54,
